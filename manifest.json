@@ -3,7 +3,11 @@
   "name": "Almost Fullscreen",
   "version": "0.1",
   "description": "A chrome extension that lets any video player take up the entirety of the viewport.",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],  
   "host_permissions": [
     "http://*/*",
     "https://*/*"
