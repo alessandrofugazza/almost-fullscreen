@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Almost Fullscreen",
+  "version": "0.1",
+  "description": "A chrome extension that lets any video player take up the entirety of the viewport.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  }
+}
