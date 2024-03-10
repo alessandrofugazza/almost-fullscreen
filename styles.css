@@ -2,12 +2,23 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-video {
+/* #player {
+    position: absolute;
+    z-index: 999999 !important;
+} */
+
+*:not(video) {
+    position: absolute !important;
+    z-index: -1 !important;
+}
+
+video#chat-player_html5_api,
+video.tw-stream-player-video {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
     width: 100vw !important;
     max-height: 100vh !important;
     background-color: black !important;
-    z-index: 99999 !important;
+    z-index: 9999999 !important;
 }
