@@ -1,9 +1,9 @@
-body.fuck-me {
+body.hide {
     visibility: hidden !important;
     overflow: hidden !important;
 }
 
-video.fuck {
+video.fullscreen {
     visibility: visible !important;
     position: fixed !important;
     top: 0 !important;

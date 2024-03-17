@@ -8,11 +8,12 @@ document.getElementById("apply-styles").addEventListener("click", async () => {
 
 function toggleVideoStyles() {
   const video = document.querySelector("video");
-  video.classList.toggle("fuck");
+  video.classList.toggle("fullscreen");
   const body = document.querySelector("body");
-  body.classList.toggle("fuck-me");
+  body.classList.toggle("hide");
 
   if (!video) alert("fucking bullshit mate");
+  if (!body) alert("fucking bullshit mate");
 
   // if (video.classList.contains("almost-fullscreen")) {
   //   video.classList.remove("almost-fullscreen");
