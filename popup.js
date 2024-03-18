@@ -7,8 +7,8 @@ document.getElementById("apply-styles").addEventListener("click", async () => {
 });
 
 function toggleVideoStyles() {
-  const video = document.querySelector("video");
-  video.classList.toggle("fullscreen");
+  const videoPlayer = document.querySelector("video");
+  videoPlayer.classList.toggle("fullscreen");
   const body = document.querySelector("body");
   body.classList.toggle("hide");
 
